@@ -1,0 +1,118 @@
+<!-- ============================================ -->
+<!--                    Quote                     -->
+<!-- ============================================ -->
+
+<STYLE>
+    /*-- -------------------------- -->
+<---         Services           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #quote-1307 {
+        position: relative;
+        z-index: 1;
+    }
+    #quote-1307 .cs-container {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        box-sizing: border-box;
+        padding: var(--sectionPadding);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #quote-1307 .cs-content {
+        width: 100%;
+        max-width: 53.125rem;
+        display: flex;
+        flex-direction: column;
+        /* centers content horizontally, set to flex-start to left align */
+        align-items: center;
+        /* set text align to left if content needs to be left aligned */
+        text-align: center;
+    }
+    #quote-1307 .cs-quote {
+        /* 31px - 49px */
+        font-size: clamp(1.9375rem, 5.1vw, 3.0625rem);
+        line-height: 1.2em;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        color: #fff;
+        text-align: inherit;
+    }
+    #quote-1307 .cs-name {
+        /* 20px - 25px */
+        font-size: clamp(1.25rem, 3.25vw, 1.5625rem);
+        line-height: 1.2em;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 0.5rem;
+        color: var(--primary);
+        display: block;
+        text-align: inherit;
+    }
+    #quote-1307 .cs-job {
+        font-size: 1rem;
+        line-height: 1.5em;
+        margin: 0;
+        color: #f7f7f7;
+        text-align: inherit;
+    }
+    #quote-1307 .cs-background {
+        width: 100%;
+        height: 100%;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        /* darkened overlay */
+    }
+    #quote-1307 .cs-background::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    #quote-1307 .cs-background img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.24;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+                                
+</STYLE>
+
+<section id="quote-1307">
+    <div class="cs-container">
+        <div class="cs-content">
+            <p class="cs-quote">
+                Creating long-term value with entrepreneurial intelligence! Our main goal is Growth.
+            </p>
+            <span class="cs-name">Piter Bowman</span>
+            <span class="cs-job">Creative Director</span>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/banking-district.png">
+        <source media="(min-width: 601px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/banking-district.png">
+        <img aria-hidden="true" loading="lazy" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/banking-district.png"
+                alt="banking cityscape" width="360" height="316">
+    </picture>
+</section>
+                                
