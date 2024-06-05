@@ -23,8 +23,6 @@
   .cs-topper {
     display: block;
     margin-bottom: 0.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     font-size: var(--topperFontSize);
     line-height: 1.2em;
     font-weight: 700;
@@ -50,6 +48,15 @@
     color: var(--bodyTextColor);
     text-align: inherit;
   }
+  .cs-text-white {
+    margin: 0;
+    max-width: 40.625rem;
+    width: 100%;
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    color: var(--bodyTextColorWhite);
+    text-align: inherit;
+  }
   .cs-button-solid {
     z-index: 1;
     position: relative;
@@ -59,7 +66,6 @@
     width: auto;
     padding: 0 1.875rem;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
@@ -1070,7 +1076,6 @@
   #footer .right-section .lists ul h2 {
     position: relative;
     margin-bottom: 2.3125rem;
-    text-transform: uppercase;
     font-size: 1.125rem;
     line-height: 1.1666666667em;
     font-weight: bold;

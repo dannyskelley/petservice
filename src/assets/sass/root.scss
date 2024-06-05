@@ -30,8 +30,6 @@
     .cs-topper {
         display: block;
         margin-bottom: 0.25rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
         font-size: var(--topperFontSize);
         line-height: 1.2em;
         font-weight: 700;
@@ -60,6 +58,16 @@
         text-align: inherit;
     }
 
+    .cs-text-white {
+        margin: 0;
+        max-width: 40.625rem;
+        width: 100%;
+        font-size: var(--bodyFontSize);
+        line-height: 1.5em;
+        color: var(--bodyTextColorWhite);
+        text-align: inherit;
+    }
+
     // Button - can be replaced using CodeStitch's "Button" Stitches
     .cs-button-solid {
         z-index: 1;
@@ -70,7 +78,6 @@
         width: auto;
         padding: 0 calc(30 / 16 * 1rem);
         text-decoration: none;
-        text-transform: uppercase;
         font-size: calc(16 / 16 * 1rem);
         line-height: calc(50 / 16 * 1em);
         font-weight: bold;
@@ -1268,7 +1275,6 @@
                     h2 {
                         position: relative;
                         margin-bottom: calc(37 / 16 * 1rem);
-                        text-transform: uppercase;
                         font-size: calc(18 / 16 * 1rem);
                         line-height: calc(21 / 18 * 1em);
                         font-weight: bold;

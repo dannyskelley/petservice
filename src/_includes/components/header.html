@@ -701,9 +701,7 @@ body {
 .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
-    text-transform: uppercase;
     text-align: inherit;
-    letter-spacing: .1em;
     font-weight: 700;
     color: var(--primary);
     margin-bottom: 0.25rem;
@@ -742,12 +740,12 @@ body {
         <div class="cs-top-container">
             <div class="cs-top-contact">
                 <a href="" class="cs-top-link">
-                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/phone-grey.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
-                    Call us: +84 1985 33 999
+                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-stroke-white.svg" alt="logo" width="16" height="16" aria-hidden="true" decoding="async">
+                    Call us: {{client.phoneFormatted}}
                 </a>
                 <a href="" class="cs-top-link">
-                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/clock-grey.svg" alt="logo" width="20" height="20" aria-hidden="true" decoding="async">
-                    Opening hours: Mon - Sat: 8:00am To 9:00pm
+                    <img class="cs-link-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/clock-stroke-white.svg" alt="logo" width="20" height="20" aria-hidden="true" decoding="async">
+                    Mon - Sat: 8:00am To 9:00pm
                 </a>
             </div>
             <!--<div class="cs-top-social">
@@ -792,29 +790,59 @@ body {
                     </li>
                     <li class="cs-li">
                         <a href="/about/" class="cs-li-link">
-                            About
+                            Our Team
                         </a>
                     </li>
                     <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
                     <li class="cs-li cs-dropdown" tabindex="0">
-                        <span class="cs-li-link">
-                            Services
-                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chev-down.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
-                        </span>
-                        <ul class="cs-drop-ul">
-                            <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">Housing</a>
-                            </li>
-                            <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">Food Banks</a>
-                            </li>
-                        </ul>
-                    </li>
+                      <span class="cs-li-link">
+                          Services
+                          <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chev-down.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                      </span>
+                      <ul class="cs-drop-ul">
+                          <li class="cs-drop-li">
+                              <a href="" class="cs-li-link cs-drop-link">Dog Walking</a>
+                          </li>
+                          <li class="cs-drop-li">
+                              <a href="" class="cs-li-link cs-drop-link">In Home Pet Sitting</a>
+                          </li>
+                          <li class="cs-drop-li">
+                            <a href="" class="cs-li-link cs-drop-link">Pet Transportation</a>
+                        </li>
+                      </ul>
+                  </li>
+
+
+
+
+
+
+                   <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                   <li class="cs-li cs-dropdown" tabindex="0">
+                    <span class="cs-li-link">
+                        Service Areas
+                        <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/chev-down.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                    </span>
+                    <ul class="cs-drop-ul">
+                        <li class="cs-drop-li">
+                            <a href="" class="cs-li-link cs-drop-link">Detroit</a>
+                        </li>
+                        <li class="cs-drop-li">
+                            <a href="" class="cs-li-link cs-drop-link">Highland Park</a>
+                        </li>
+                        <li class="cs-drop-li">
+                          <a href="" class="cs-li-link cs-drop-link">Ferndale</a>
+                      </li>
+                    </ul>
+                </li>
+
+
+
                     <li class="cs-li">
-                        <a href="/blog/" class="cs-li-link">
-                            Blog
-                        </a>
-                    </li>
+                      <a href="/about/" class="cs-li-link">
+                          Pricing
+                      </a>
+                  </li>
          
                 </ul>
             </div>
